@@ -1,0 +1,216 @@
+.button-car {
+    width: 10px;
+    height: 40px;
+    background-color: transparent;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1px;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    display: flex;
+    cursor: pointer;
+    margin:auto;
+    border-radius: 10px;
+    position: absolute;
+    right: 400px;
+    top: 48px;
+    border: none;
+    color: white;
+    font-size: 2.2em;
+}
+
+.button-atendimento {
+    width: 10px;
+    height: 40px;
+    background-color: transparent;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1px;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    display: flex;
+    cursor: pointer;
+    margin:auto;
+    border-radius: 10px;
+    position: absolute;
+    right: 330px;
+    top: 50px;
+    border: none;
+    color: white;
+    font-size: 2.2em;
+}
+
+.button-promocao {
+    width: 10px;
+    height: 40px;
+    background-color: transparent;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1px;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    display: flex;
+    cursor: pointer;
+    margin:auto;
+    border-radius: 10px;
+    position: absolute;
+    right: 260px;
+    top: 50px;
+    border: none;
+    color: white;
+    font-size: 2.3em;
+}
+
+
+.button-zap {
+    width: 10px;
+    height: 40px;
+    background-color: transparent;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1px;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    display: flex;
+    cursor: pointer;
+    margin:auto;
+    border-radius: 10px;
+    position: absolute;
+    right: 50px;
+    top: 45px;
+    border: none;
+    color: rgb(0, 0, 0);
+    font-size: 2.5em;
+}
+
+@media (max-width: 1400px) {
+    .button-car {
+        font-size: 1.5em;
+        right: 360px;
+    }
+}
+
+@media (max-width:1400px) {
+    .button-atendimento {
+        font-size: 1.5em;
+        right: 320px;
+    }
+}
+
+@media (max-width:1400px) {
+    .button-promocao {
+        font-size: 1.5em;
+        right: 275px;
+    }
+}
+
+@media (max-width:1145px) {
+    .button-car {
+        font-size: 1.5em;
+        right: 290px;
+        padding: 5 5px;
+    }
+}
+
+@media (max-width:1145px) {
+    .button-atendimento {
+        font-size: 1.5em;
+        right: 240px;
+        padding: 5 5px;
+    }
+}
+
+@media (max-width:1145px) {
+    .button-promocao {
+        font-size: 1.5em;
+        right: 190px;
+        padding: 5 5px;
+    }
+}
+
+@media (max-width:1070px) {
+    .button-car {
+        font-size: 1.5em;
+        right: 260px;
+        padding: 5 5px;
+    }
+}
+
+@media (max-width:1070px) {
+    .button-atendimento {
+        font-size: 1.5em;
+        right: 225px;
+        padding: 5 5px;
+    }
+}
+
+@media (max-width:1041px) {
+    .button-car {
+        font-size: 1.5em;
+        right: 240px;
+        padding: 5 5px;
+    }
+}
+
+@media (max-width:1041px) {
+    .button-atendimento {
+        font-size: 1.5em;
+        right: 210px;
+        padding: 5 5px;
+    }
+}
+
+@media (max-width:1041px) {
+    .button-promocao {
+        font-size: 1.5em;
+        right: 180px;
+        padding: 5 5px;
+    }
+}
+
+@media (max-width:1020px) {
+    .button-car {
+        font-size: 1.5em;
+        right: 220px;
+        padding: 5 5px;
+    }
+}
+
+@media (max-width:1020px) {
+    .button-atendimento {
+        font-size: 1.5em;
+        right: 190px;
+        padding: 5 5px;
+    }
+}
+
+@media (max-width:1020px) {
+    .button-promocao {
+        font-size: 1.5em;
+        right: 160px;
+        padding: 5 5px;
+    }
+}
+
+@media (max-width:1000px) {
+    .button-car {
+        font-size: 0;
+    }
+}
+
+@media (max-width:1000px) {
+    .button-atendimento {
+        font-size:0;
+    }
+}
+
+@media (max-width:1000px) {
+    .button-promocao {
+        font-size: 0;
+    }
+}
+

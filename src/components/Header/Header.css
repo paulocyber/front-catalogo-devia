@@ -1,0 +1,139 @@
+/* Menu */
+#menu {
+    background: #0c3767;
+    margin-bottom: 76px;
+    z-index: 999;
+}
+
+.container_button {
+    display: flex;
+}
+
+.container_menu {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hearder {
+    background-color: #00b7bd;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    animation: rot 1s linear infinite;
+}
+
+.hearder  .container_menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+
+.logo {
+    width: 170px;
+    height: 80px;
+}
+
+.search {
+    display: flex;
+    position: relative;
+}
+
+
+#default-search {
+    width: 40em;
+    color: #000;
+    font-weight: bold;
+    padding-left: 3em;
+}
+
+.input_search .icon-search{
+    font-size: 20px;
+    color: #000;
+    position: absolute;
+    padding: 0.7em;
+}
+
+@media (max-width:1300px) {
+    .input_search {
+    position: relative;
+    left: -120px;
+    }
+}
+
+@media (max-width:1240px) {
+    .input_search {
+        margin:10px;
+        margin-right: 10px;
+        margin-left: 10px;
+        display: flex;
+
+    }
+    .search {
+    flex-grow: 1;
+    margin: 0 120px;
+    }
+}
+
+
+@media (max-width:1240px) {
+    .input_search {
+        margin:10px;
+        justify-content: space-between;
+        display: flex;
+
+    }
+    .search {
+    flex-grow: 1;
+    margin: 0 120px;
+    }
+}
+
+@media (max-width:900px) {
+    .input_search {
+        margin:10px;
+        justify-content: space-between;
+        display: flex;
+
+    }
+    .search {
+    flex-grow: 1;
+    margin: 0 120px;
+    }
+}
+
+@media (max-width:900px) {
+    .logo {
+        position: relative;
+    }
+    #default-search {
+        width: 20em;
+    }
+}
+
+@media (max-width:600px) {
+    .logo {
+        position: relative;
+    }
+    #default-search {
+        width: 10em;
+    }
+}
+
+@media (max-width:400px) {
+    .hearder{
+        height: 120px;
+    }
+    .logo {
+        position: relative;
+        left: -15px;
+        height: 60px;
+    }
+    #default-search {
+        height: 50px;
+        width: 10em;
+        justify-content: space-between;
+        margin-right: 0.2em;
+    }
+}

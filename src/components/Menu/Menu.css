@@ -1,0 +1,526 @@
+:root {
+  --primary-bg: #242526;
+  --secondary-bg: #fff;
+  --primary-text-color: #555;
+  --secondary-text-color: #a5a5a5;
+  --border-radius: 8px;
+  --speed: 500ms;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  monospace;
+}
+
+.menu-trigger {
+  width: 80px;
+  display: flex;
+  cursor: pointer;
+  background-color: white;
+  padding: 0.5em;
+  border-radius: 6px;
+  font-weight: bolder;
+  font-size: 17px;
+  color: #000000;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 2.5em;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 105px;
+  right: 50px;
+  background-color: white;
+  border-radius: var(border-radius);
+  padding: 10px 20px;
+  width: 200px;
+}
+
+.dropdown-menu::before{
+  content: '';
+  position: absolute;
+  top: -5px;
+  right: 20px;
+  height: 20px;
+  width: 20px;
+  background-color: white;
+  transform: rotate(45deg);
+}
+
+.dropdown-menu.active{
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+  transition: var(--speed) ease;
+}
+
+.dropdown-menu.inactive{
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-20px);
+  transition: var(--speed) ease;
+}
+
+h3 {
+  padding: 20px 0;
+  font-size: 18px;
+  color: var(--primary-text-color);
+  line-height: 1.2rem;
+  font-weight: bold;
+}
+
+h3 span{
+  font-size: 14px;
+  color: var(--secondary-text-color);
+  font-weight: bold;
+}
+
+.dropdown-menu ul li{
+  padding: 10px  0;
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
+  font-weight: bold;
+}
+
+.dropdown-menu ul li:hover a{
+  color: #f58301;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.dropdown-menu ul li:hover img{
+  opacity: 1;
+  cursor: pointer;
+}
+
+.dropdownItem{
+  display: flex;
+  margin: 10px auto;
+}
+
+.dropdownItem img{
+  max-width: 20px;
+  margin-right: 10px;
+  opacity: 0.5;
+  transition: var(--speed);
+}
+
+.dropdownItem a{
+  max-width: 100px;
+  margin-left: 10px;
+  transition: var(--speed);
+}
+
+
+@media (max-width:1200px) {
+  .menu-trigger {
+    position: relative;
+    right: 20px;
+    display: flex;
+    flex-grow: 1;
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+  .whatsapp_icon {
+    position: relative;
+    right: 80px;
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+  .dropdown-menu {
+    right: 40px;
+    justify-content: space-between;
+  }
+}
+
+@media (max-width:1150px) {
+  .menu-trigger {
+    position: relative;
+    right: 40px;
+    display: flex;
+    flex-grow: 1;
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+  .whatsapp_icon {
+    position: relative;
+    right: 90px;
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+  .dropdown-menu {
+    right: 40px;
+    justify-content: space-between;
+  }
+}
+
+
+
+@media (max-width:1100px) {
+  .menu-trigger {
+    position: relative;
+    right: 90px;
+    display: flex;
+    flex-grow: 1;
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+  .whatsapp_icon {
+    position: relative;
+    right: 140px;
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+  .dropdown-menu {
+    right: 40px;
+    justify-content: space-between;
+  }
+}
+
+
+@media (max-width:1050px) {
+  .menu-trigger {
+    position: relative;
+    right: 140px;
+    display: flex;
+    flex-grow: 1;
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+  .whatsapp_icon {
+    position: relative;
+    right: 180px;
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+  .dropdown-menu {
+    right: 40px;
+    justify-content: space-between;
+  }
+}
+
+
+@media (max-width:1000px) {
+  .menu-trigger {
+    position: relative;
+    right: 180px;
+    display: flex;
+    flex-grow: 1;
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+  .whatsapp_icon {
+    position: relative;
+    right: 200px;
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+  .dropdown-menu {
+    right: 20px;
+    justify-content: space-between;
+  }
+}
+
+
+@media (max-width:950px) {
+  .menu-trigger {
+    position: relative;
+    right: 220px;
+    display: flex;
+    flex-grow: 1;
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+  .whatsapp_icon {
+    position: relative;
+    right: 230px;
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+  .dropdown-menu {
+    right: 20px;
+    justify-content: space-between;
+  }
+}
+
+
+@media (max-width:900px) {
+  .menu-trigger {
+    position: relative;
+    right: 10px;
+    display: flex;
+    flex-grow: 1;
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+  .whatsapp_icon {
+    position: relative;
+    right: 60px;
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+  .dropdown-menu {
+    right: 20px;
+    justify-content: space-between;
+  }
+}
+
+
+@media (max-width:850px) {
+  .menu-trigger {
+    position: relative;
+    right: 50px;
+    display: flex;
+    flex-grow: 1;
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+  .whatsapp_icon {
+    position: relative;
+    right: 110px;
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+  .dropdown-menu {
+    right: 20px;
+    justify-content: space-between;
+  }
+}
+
+
+@media (max-width:800px) {
+  .menu-trigger {
+    position: relative;
+    right: 100px;
+    display: flex;
+    flex-grow: 1;
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+  .whatsapp_icon {
+    position: relative;
+    right: 150px;
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+  .dropdown-menu {
+    right: 20px;
+    justify-content: space-between;
+  }
+}
+
+
+@media (max-width:750px) {
+  .menu-trigger {
+    position: relative;
+    right: 150px;
+    display: flex;
+    flex-grow: 1;
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+  .whatsapp_icon {
+    position: relative;
+    right: 190px;
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+  .dropdown-menu {
+    right: 20px;
+    justify-content: space-between;
+  }
+}
+
+
+@media (max-width:700px) {
+  .menu-trigger {
+    position: relative;
+    right: 200px;
+    display: flex;
+    flex-grow: 1;
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+  .whatsapp_icon {
+    position: relative;
+    right: 210px;
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+  .dropdown-menu {
+    right: 20px;
+    justify-content: space-between;
+  }
+}
+
+
+@media (max-width:650px) {
+  .menu-trigger {
+    position: relative;
+    right: 240px;
+    display: flex;
+    flex-grow: 1;
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+  .whatsapp_icon {
+    position: relative;
+    right: 235px;
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+  .dropdown-menu {
+    right: 20px;
+    justify-content: space-between;
+  }
+}
+
+
+@media (max-width:620px) {
+  .menu-trigger {
+    position: relative;
+    right: 240px;
+    display: flex;
+    flex-grow: 1;
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+  .whatsapp_icon {
+    position: relative;
+    right: 235px;
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+  .dropdown-menu {
+    right: 15px;
+    justify-content: space-between;
+  }
+}
+
+
+@media (max-width:600px) {
+  .menu-trigger {
+    position: relative;
+    right: 150px;
+    display: flex;
+    flex-grow: 1;
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+  .whatsapp_icon {
+    position: relative;
+    right: 180px;
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+  .dropdown-menu {
+    right: 20px;
+    justify-content: space-between;
+  }
+}
+
+
+@media (max-width:560px) {
+  .menu-trigger {
+    position: relative;
+    right: 190px;
+    display: flex;
+    flex-grow: 1;
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+  .whatsapp_icon {
+    position: relative;
+    right: 200px;
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+  .dropdown-menu {
+    right: 20px;
+    justify-content: space-between;
+  }
+}
+
+
+@media (max-width:520px) {
+  .menu-trigger {
+    position: relative;
+    right: 220px;
+    display: flex;
+    flex-grow: 1;
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+  .whatsapp_icon {
+    position: relative;
+    right: 230px;
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+  .dropdown-menu {
+    right: 20px;
+    justify-content: space-between;
+  }
+}
+
+
+@media (max-width:500px) {
+  .menu-trigger {
+    position: relative;
+    right: 235px;
+    display: flex;
+    flex-grow: 1;
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+  .whatsapp_icon {
+    position: relative;
+    right: 230px;
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+  .dropdown-menu {
+    right: 20px;
+    justify-content: space-between;
+  }
+}
+
+
+@media (max-width:480px) {
+  .menu-trigger {
+    position: relative;
+    right: 250px;
+    display: flex;
+    flex-grow: 1;
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+  .whatsapp_icon {
+    position: relative;
+    right: 245px;
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+  .dropdown-menu {
+    right: 20px;
+    justify-content: space-between;
+  }
+}
+
+@media (max-width:450px) {
+  .menu-trigger {
+    position: relative;
+    right: 230px;
+    display: flex;
+    flex-grow: 1;
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+  .whatsapp_icon {
+    display: none;
+  }
+  .dropdown-menu {
+    right: 20px;
+    justify-content: space-between;
+  }
+}
