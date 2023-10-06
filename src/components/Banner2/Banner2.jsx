@@ -28,7 +28,7 @@ function Banner2 () {
             >
                 {ImageBanner.map ( (item) => (
                     <SwiperSlide key={item.id}>
-                        <img src={item.image} alt="Slider" className="slide-item"/>
+                        <img src={item.image} alt="Slider" className="slide-item2"/>
                     </SwiperSlide>
                 ))}
             </Swiper>

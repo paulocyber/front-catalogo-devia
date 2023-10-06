@@ -6,6 +6,7 @@ import qs from 'qs';
 // Componetes
 import Header from "./components/Header/Header";
 import Banner from "./components/Banner/Banner";
+import Banner2 from "./components/Banner2/Banner2";
 import ProductCard from "./components/ProductCard/ProductCard";
 import { LoadProdutos } from './components/utils/loadProdutos'; 
 
@@ -13,7 +14,6 @@ import { LoadProdutos } from './components/utils/loadProdutos';
 // Imagens
 import whatapp from './assets/whatsapp.png'
 import { initFlowbite } from "flowbite";
-import Banner2 from "./components/Banner2/Banner2";
 
 function Peining() {
   const [busca, setBusca] = useState('');
@@ -64,7 +64,7 @@ function Peining() {
 
         </div>
 
-        <Banner2/>
+        <Banner2 />
       </div>
   );
 }
