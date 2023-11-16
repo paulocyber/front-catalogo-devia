@@ -1,0 +1,56 @@
+.Background_modal {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 999;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.Conteudo_modal {
+    background-color: #fff;  
+    border-radius: 20px;
+    width: 45%;
+    overflow: auto;
+    max-width: 800px; /* Defina um valor máximo para evitar que o conteúdo fique muito largo em telas grandes. */
+    padding: 1em; /* Adicione um espaçamento interno para o conteúdo. */
+}
+
+.container_buttonExit {
+    position: absolute;
+    top: 14px;
+    right: 10px;
+    z-index: 50;
+}
+
+.Buttonexit {
+    font-size: 2em; /* Reduza um pouco o tamanho da fonte. */
+    color: white;
+    padding-right: 0.3em;
+}
+
+@media (max-width: 767px) {
+    .Conteudo_modal {
+        width: 60%;
+    }
+    .container_buttonExit {
+        top: 5px; 
+        right: 5px; 
+    }
+    .Buttonexit {
+        font-size: 1.5em; /* Reduza ainda mais o tamanho da fonte. */
+    }
+}
+
+@media (max-width: 600px) {
+    .Conteudo_modal {
+        width: 90%;
+        margin: 1em;
+    }
+}

@@ -3,7 +3,7 @@
 @import 'tailwindcss/utilities';
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Poppins:ital,wght@1,200&display=swap');
 
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -11,7 +11,7 @@
 }
 
 body {
-    background-color: #efefef;
+  background-color: #efefef;
 }
 
 .card-container {
@@ -25,13 +25,13 @@ body {
   animation: searchPulse 0.5s ease-in-out;
 }
 
-.content {
+/* .content {
   position: fixed;
   z-index: 20;
   right: 0;
   bottom: 0 ;
   padding: 1em;
-}
+} */
 
 .banner {
   width: 100vh;
@@ -41,14 +41,14 @@ body {
   animation: pulse 1s 3;
 }
 
-.content img{
+.content button img {
   width: 60px;
   height: 60px;
   cursor: pointer;
   transition: transform 100ms ease-in-out;
 }
 
-.content img:hover{
+.content img:hover {
   transform: scale(1.2);
   margin-bottom: 15px;
 }
@@ -63,7 +63,6 @@ body {
   display: flex;
   justify-content: center;
   padding: 8px;
-  margin-top: 15px;
 }
 
 @media (max-width:600px) {
@@ -72,9 +71,14 @@ body {
   }
 }
 
-@media (max-width:400px) {
+@media (max-width:340px) {
   .Carregadores {
     font-size: 0.8em;
+  }
+
+  .content button img {
+    width: 50px;
+    height: 50px;
   }
 }
 
@@ -82,9 +86,11 @@ body {
   0% {
     transform: scale(1);
   }
+
   50% {
     transform: scale(1.2);
   }
+
   100% {
     transform: scale(1);
   }
@@ -92,12 +98,14 @@ body {
 
 @keyframes searchPulse {
   0% {
-      transform: scale(1);
+    transform: scale(1);
   }
+
   50% {
-      transform: scale(1.1);
+    transform: scale(1.1);
   }
+
   100% {
-      transform: scale(1);
+    transform: scale(1);
   }
 }

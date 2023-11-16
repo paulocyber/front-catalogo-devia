@@ -112,415 +112,160 @@ h3 span{
 }
 
 
-@media (max-width:1200px) {
+@media (max-width: 994px) {
   .menu-trigger {
-    position: relative;
-    right: 20px;
+    width: 80px;
     display: flex;
-    flex-grow: 1;
-    margin-right: 5px;
-    margin-left: 5px;
+    cursor: pointer;
+    background-color: white;
+    padding: 0.5em;
+    color: #00b0c7;
+    margin: 0px 0.2em;
   }
-  .whatsapp_icon {
-    position: relative;
-    right: 80px;
-    margin-right: 5px;
-    margin-left: 5px;
-  }
-  .dropdown-menu {
-    right: 40px;
-    justify-content: space-between;
+
+  .menu-trigger {
+    margin-left: 0.8em;
   }
 }
 
-@media (max-width:1150px) {
+@media (max-width: 1165px) {
+  .menu-trigger {
+    margin-left: 0.8em;
+  }
+}
+
+@media (max-width:1145px) {
   .menu-trigger {
     position: relative;
-    right: 40px;
     display: flex;
     flex-grow: 1;
     margin-right: 5px;
     margin-left: 5px;
   }
-  .whatsapp_icon {
+}
+
+@media (max-width:1070px) {
+  .menu-trigger {
     position: relative;
+    display: flex;
     right: 90px;
     margin-right: 5px;
     margin-left: 5px;
   }
-  .dropdown-menu {
-    right: 40px;
-    justify-content: space-between;
+}
+
+@media (max-width:1041px) {
+  .menu-trigger {
+    position: relative;
+    right: 120px;
+    margin-right: 5px;
+    margin-left: 5px;
   }
 }
 
-
-
-@media (max-width:1100px) {
+@media (max-width:990px) {
   .menu-trigger {
-    position: relative;
-    right: 90px;
-    display: flex;
-    flex-grow: 1;
-    margin-right: 5px;
-    margin-left: 5px;
-  }
-  .whatsapp_icon {
-    position: relative;
-    right: 140px;
-    margin-right: 5px;
-    margin-left: 5px;
-  }
-  .dropdown-menu {
-    right: 40px;
-    justify-content: space-between;
-  }
-}
-
-
-@media (max-width:1050px) {
-  .menu-trigger {
-    position: relative;
-    right: 140px;
-    display: flex;
-    flex-grow: 1;
-    margin-right: 5px;
-    margin-left: 5px;
-  }
-  .whatsapp_icon {
-    position: relative;
-    right: 180px;
-    margin-right: 5px;
-    margin-left: 5px;
-  }
-  .dropdown-menu {
-    right: 40px;
-    justify-content: space-between;
-  }
-}
-
-
-@media (max-width:1000px) {
-  .menu-trigger {
-    position: relative;
-    right: 180px;
-    display: flex;
-    flex-grow: 1;
-    margin-right: 5px;
-    margin-left: 5px;
-  }
-  .whatsapp_icon {
     position: relative;
     right: 200px;
     margin-right: 5px;
     margin-left: 5px;
   }
-  .dropdown-menu {
-    right: 20px;
-    justify-content: space-between;
-  }
 }
 
-
-@media (max-width:950px) {
+@media (max-width:935px) {
   .menu-trigger {
     position: relative;
-    right: 220px;
-    display: flex;
-    flex-grow: 1;
+    right: 250px;
     margin-right: 5px;
     margin-left: 5px;
-  }
-  .whatsapp_icon {
-    position: relative;
-    right: 230px;
-    margin-right: 5px;
-    margin-left: 5px;
-  }
-  .dropdown-menu {
-    right: 20px;
-    justify-content: space-between;
   }
 }
 
-
-@media (max-width:900px) {
-  .menu-trigger {
-    position: relative;
-    right: 10px;
-    display: flex;
-    flex-grow: 1;
-    margin-right: 5px;
-    margin-left: 5px;
-  }
-  .whatsapp_icon {
-    position: relative;
-    right: 60px;
-    margin-right: 5px;
-    margin-left: 5px;
-  }
-  .dropdown-menu {
-    right: 20px;
-    justify-content: space-between;
-  }
-}
-
-
-@media (max-width:850px) {
+@media (max-width:860px) {
   .menu-trigger {
     position: relative;
     right: 50px;
-    display: flex;
-    flex-grow: 1;
     margin-right: 5px;
     margin-left: 5px;
-  }
-  .whatsapp_icon {
-    position: relative;
-    right: 110px;
-    margin-right: 5px;
-    margin-left: 5px;
-  }
-  .dropdown-menu {
-    right: 20px;
-    justify-content: space-between;
   }
 }
-
 
 @media (max-width:800px) {
   .menu-trigger {
     position: relative;
-    right: 100px;
-    display: flex;
-    flex-grow: 1;
+    right: 5px;
     margin-right: 5px;
     margin-left: 5px;
-  }
-  .whatsapp_icon {
-    position: relative;
-    right: 150px;
-    margin-right: 5px;
-    margin-left: 5px;
-  }
-  .dropdown-menu {
-    right: 20px;
-    justify-content: space-between;
   }
 }
 
-
-@media (max-width:750px) {
-  .menu-trigger {
-    position: relative;
-    right: 150px;
-    display: flex;
-    flex-grow: 1;
-    margin-right: 5px;
-    margin-left: 5px;
-  }
-  .whatsapp_icon {
-    position: relative;
-    right: 190px;
-    margin-right: 5px;
-    margin-left: 5px;
-  }
+@media (max-width:800px) {
   .dropdown-menu {
-    right: 20px;
+    right: 25px;
     justify-content: space-between;
   }
 }
-
 
 @media (max-width:700px) {
   .menu-trigger {
     position: relative;
-    right: 200px;
-    display: flex;
-    flex-grow: 1;
+    right: 5px;
     margin-right: 5px;
     margin-left: 5px;
-  }
-  .whatsapp_icon {
-    position: relative;
-    right: 210px;
-    margin-right: 5px;
-    margin-left: 5px;
-  }
-  .dropdown-menu {
-    right: 20px;
-    justify-content: space-between;
   }
 }
 
-
-@media (max-width:650px) {
-  .menu-trigger {
-    position: relative;
-    right: 240px;
-    display: flex;
-    flex-grow: 1;
-    margin-right: 5px;
-    margin-left: 5px;
-  }
-  .whatsapp_icon {
-    position: relative;
-    right: 235px;
-    margin-right: 5px;
-    margin-left: 5px;
-  }
+@media (max-width:700px) {
   .dropdown-menu {
-    right: 20px;
+    right: 25px;
     justify-content: space-between;
   }
 }
-
-
-@media (max-width:620px) {
-  .menu-trigger {
-    position: relative;
-    right: 240px;
-    display: flex;
-    flex-grow: 1;
-    margin-right: 5px;
-    margin-left: 5px;
-  }
-  .whatsapp_icon {
-    position: relative;
-    right: 235px;
-    margin-right: 5px;
-    margin-left: 5px;
-  }
-  .dropdown-menu {
-    right: 15px;
-    justify-content: space-between;
-  }
-}
-
 
 @media (max-width:600px) {
   .menu-trigger {
     position: relative;
-    right: 150px;
-    display: flex;
-    flex-grow: 1;
+    right: 5px;
     margin-right: 5px;
     margin-left: 5px;
-  }
-  .whatsapp_icon {
-    position: relative;
-    right: 180px;
-    margin-right: 5px;
-    margin-left: 5px;
-  }
-  .dropdown-menu {
-    right: 20px;
-    justify-content: space-between;
   }
 }
 
-
-@media (max-width:560px) {
-  .menu-trigger {
-    position: relative;
-    right: 190px;
-    display: flex;
-    flex-grow: 1;
-    margin-right: 5px;
-    margin-left: 5px;
-  }
-  .whatsapp_icon {
-    position: relative;
-    right: 200px;
-    margin-right: 5px;
-    margin-left: 5px;
-  }
+@media (max-width:600px) {
   .dropdown-menu {
-    right: 20px;
+    right: 25px;
     justify-content: space-between;
   }
 }
-
-
-@media (max-width:520px) {
-  .menu-trigger {
-    position: relative;
-    right: 220px;
-    display: flex;
-    flex-grow: 1;
-    margin-right: 5px;
-    margin-left: 5px;
-  }
-  .whatsapp_icon {
-    position: relative;
-    right: 230px;
-    margin-right: 5px;
-    margin-left: 5px;
-  }
-  .dropdown-menu {
-    right: 20px;
-    justify-content: space-between;
-  }
-}
-
 
 @media (max-width:500px) {
   .menu-trigger {
     position: relative;
-    right: 235px;
-    display: flex;
-    flex-grow: 1;
+    right: 5px;
     margin-right: 5px;
     margin-left: 5px;
   }
-  .whatsapp_icon {
-    position: relative;
-    right: 230px;
-    margin-right: 5px;
-    margin-left: 5px;
-  }
+}
+
+@media (max-width:500px) {
   .dropdown-menu {
-    right: 20px;
+    right: 25px;
     justify-content: space-between;
   }
 }
 
-
-@media (max-width:480px) {
+@media (max-width:440px) {
   .menu-trigger {
     position: relative;
-    right: 250px;
-    display: flex;
-    flex-grow: 1;
+    right: 5px;
     margin-right: 5px;
     margin-left: 5px;
-  }
-  .whatsapp_icon {
-    position: relative;
-    right: 245px;
-    margin-right: 5px;
-    margin-left: 5px;
-  }
-  .dropdown-menu {
-    right: 20px;
-    justify-content: space-between;
   }
 }
 
-@media (max-width:450px) {
-  .menu-trigger {
-    position: relative;
-    right: 230px;
-    display: flex;
-    flex-grow: 1;
-    margin-right: 5px;
-    margin-left: 5px;
-  }
-  .whatsapp_icon {
-    display: none;
-  }
+@media (max-width:440px) {
   .dropdown-menu {
-    right: 20px;
+    right: 25px;
     justify-content: space-between;
   }
 }

@@ -5,3 +5,130 @@
     color: white;
 }
 
+@media (max-width: 1124px) {
+    .whatapp_icon {
+        font-size: 2.2rem;
+    }
+  }
+
+@media (max-width:1145px) {
+  .whatsapp_icon {
+    position: relative;
+    display: flex;
+    flex-grow: 1;
+    right: 15px;
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+}
+
+@media (max-width:1070px) {
+  .whatsapp_icon {
+    position: relative;
+    display: flex;
+    right: 95px;
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+}
+
+@media (max-width:1041px) {
+  .whatsapp_icon {
+    position: relative;
+    right: 130px;
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+}
+
+@media (max-width:990px) {
+  .whatsapp_icon {
+    position: relative;
+    right: 200px;
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+}
+
+@media (max-width:935px) {
+  .whatsapp_icon {
+    position: relative;
+    right: 250px;
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+}
+
+@media (max-width:860px) {
+  .whatsapp_icon {
+    position: relative;
+    right: 120px;
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+}
+
+@media (max-width:800px) {
+  .whatsapp_icon {
+    position: relative;
+    right:10px;
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+}
+
+@media (max-width:700px) {
+  .whatsapp_icon {
+    position: relative;
+    right:10px;
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+}
+
+@media (max-width:600px) {
+  .whatsapp_icon {
+    position: relative;
+    right:10px;
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+}
+
+@media (max-width:500px) {
+  .whatsapp_icon {
+    position: relative;
+    right:10px;
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+}
+
+@media (max-width:475px) {
+  .whatsapp_icon {
+    position: relative;
+    right: 70px;
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+}
+
+@media (max-width:435px) {
+  .whatsapp_icon {
+    position: relative;
+    right: 30px;
+    margin-right: 5px;
+    margin-left: 5px;
+    
+  }
+}
+
+
+@media (max-width:340px) {
+  .whatsapp_icon {
+    position: relative;
+    right:5px;
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+}

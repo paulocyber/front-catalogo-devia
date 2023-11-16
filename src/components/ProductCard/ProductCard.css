@@ -3,8 +3,7 @@
     grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
     gap: 30px;
     align-items: center;
-    margin: 1.5em;
-   
+    margin-top: 1em;
 }
 
 .product-card {
@@ -36,15 +35,37 @@
 .valor {
     font-weight: bold;
     font-size: 1.5em;
-    font-family: monospace;
 }
 
 .info {
-    font-size: 1.3em;
+    font-size: 0.9em;
+    color: #000;
     font-weight: bold;
-    font-family: monospace;
 }
 
-@media (max-width: 800px) {
-    
-    }
+.button_car {
+    background: #6baed6;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.button_car:hover {
+    background: #008ada;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.icon_car {
+    display: flex;
+    align-items: center;
+}
+
+.icon_car span{
+    padding-right: 1em;
+}
+
+#button_car {
+    background-color: #FF0000;
+    color: #fff;
+}

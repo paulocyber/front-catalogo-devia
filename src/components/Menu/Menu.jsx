@@ -4,10 +4,6 @@ import React, { useState, useEffect, useRef } from 'react';
 import carregando from '../../assets/carregando.png';
 import fone from '../../assets/fone-de-ouvido.png';
 import cabo from '../../assets/plug-usb.png'; 
-import seta from '../../assets/seta.png'
-import carrinho from '../../assets/carrinho.png'
-import promocao from '../../assets/promocao.png'
-import novidade from '../../assets/novidade.png'
 
 // Styles
 import './Menu.css';
@@ -21,7 +17,7 @@ function Menu () {
         let handler = (e)=>{
           if(!menuRef.current.contains(e.target)){
             setOpen(false);
-            console.log(menuRef.current);
+            //console.log(menuRef.current);
           }      
         };
 
@@ -43,15 +39,9 @@ function Menu () {
                 <div className={`dropdown-menu ${open? 'active' : 'inactive'}`}>
                     <h3>Produtos<br/><span>Catalogo Peining</span></h3>
                     <ul>
-                        <DropdownItem img ={seta} text = {"Carregador"}/>
-                        <DropdownItem img ={seta} text = {"Fonte"}/>
-                        <DropdownItem img ={seta} text = {"Power Bank"}/>
-                        <DropdownItem img ={seta} text = {"Cabo-USB"}/>
-                        <DropdownItem img ={seta} text = {"Fone"}/>
-                        <DropdownItem />
-                        <DropdownItem img ={promocao} text = {"Promoção"}/>
-                        <DropdownItem img ={novidade} text = {"Lancamentos"}/>
-                        <DropdownItem img ={carrinho} text = {"Carrinho"}/>
+                        <DropdownItem img ={carregando} text = {"Carregador"}/>
+                        <DropdownItem img ={fone} text = {"Fone"}/>
+                        <DropdownItem img ={cabo} text = {"plug-usb"}/>
                         
                         
                     </ul>
